@@ -8,6 +8,6 @@ Here are the supported user stores:
 * [x] Save an updated item and return to the main items view
 
 Walkthrough:
-![Video Walkthrough](SampleTodo.gif)
+![Video Walkthrough](SimpleTodo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
