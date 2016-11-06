@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
 import static com.example.fonda.simpletodo.R.id.etEditText;
 
 public class EditItemActivity extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class EditItemActivity extends AppCompatActivity {
         etEditText.setText(selectedItem);
     }
 
-    public void onClickSave(View view) {
+    public void onSave(View view) {
 
         Intent data = new Intent();
         // pass back data as a result

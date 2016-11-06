@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         writeItems();
     }
 
-    @Override
+    //
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && requestCode == REQUEST_CODE) {
             String item = data.getExtras().getString(ITEM_MODIFIED);
